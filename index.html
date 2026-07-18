@@ -1,283 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday Sakshi ❤️</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to bottom,#fff7fb,#fffef7);
-    color:#333;
-    overflow-x:hidden;
-}
-
-.floating{
-    position:fixed;
-    font-size:30px;
-    opacity:.15;
-    pointer-events:none;
-    animation:float 12s ease-in-out infinite;
-    z-index:0;
-}
-
-.f1{left:5%;top:10%;}
-.f2{left:85%;top:20%;}
-.f3{left:10%;top:60%;}
-.f4{left:90%;top:75%;}
-.f5{left:70%;top:50%;}
-.f6{left:25%;top:85%;}
-
-@keyframes float{
-    50%{
-        transform:translateY(-25px);
-    }
-}
-
-.hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:30px;
-    background:
-    linear-gradient(rgba(255,255,255,.3),
-    rgba(255,255,255,.7)),
-    linear-gradient(135deg,#ffd7ea,#fff6d5);
-}
-
-.hero h1{
-    font-size:clamp(3rem,8vw,5rem);
-    color:#ff4d94;
-}
-
-.hero p{
-    margin-top:20px;
-    font-size:1.2rem;
-}
-
-.btn{
-    margin-top:30px;
-    background:#ff4d94;
-    color:white;
-    border:none;
-    padding:15px 30px;
-    border-radius:50px;
-    cursor:pointer;
-    font-size:1rem;
-}
-
-.section{
-    max-width:1100px;
-    margin:auto;
-    padding:80px 20px;
-    position:relative;
-    z-index:2;
-}
-
-.card{
-    background:white;
-    padding:30px;
-    border-radius:25px;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#ff4d94;
-    margin-bottom:20px;
-}
-
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.polaroid{
-    background:white;
-    padding:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-    border-radius:8px;
-}
-
-.photo{
-    height:250px;
-    background:#f4f4f4;
-    border-radius:5px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.polaroid p{
-    text-align:center;
-    margin-top:10px;
-}
-
-.timeline-title{
-    text-align:center;
-    margin:50px 0;
-    font-size:1.8rem;
-}
-
-ul li{
-    margin:10px 0;
-}
-
-.song{
-    background:#fff0f6;
-    padding:12px;
-    margin:10px 0;
-    border-radius:12px;
-}
-
-footer{
-    padding:50px;
-    text-align:center;
-    color:#666;
-}
-
-#surprise{
-    display:none;
-    margin-top:20px;
-    font-size:1.2rem;
-    color:#ff4d94;
-}
-</style>
-
-<script>
-function revealSurprise(){
-    document.getElementById("surprise").style.display="block";
-}
-</script>
-
-</head>
-<body>
-
-<div class="floating f1">🦋</div>
-<div class="floating f2">🐶</div>
-<div class="floating f3">🐴</div>
-<div class="floating f4">🐾</div>
-<div class="floating f5">🦋</div>
-<div class="floating f6">🐾</div>
-
-<section class="hero">
-<div>
-<h1>Happy Birthday Sakshi ❤️</h1>
-<p>For the girl I'm still getting to know, but want to know better.</p>
-
-<button class="btn" onclick="revealSurprise()">
-Click Me ✨
-</button>
-
-<div id="surprise">
-I adore you in every shade ❤️
-</div>
-</div>
-</section>
-
-<section class="section">
-<div class="card">
-<h2>A Letter For You</h2>
-
-<p>
-Happy Birthday Sakshi,
-<br><br>
-
-It's funny how someone you've never met in person can become such a comforting part of your day.
-
-Somehow, our conversations have become something I look forward to and smile like an idiot once I spot a message notification by chaudhary.sakshi_
-
-<br><br>
-
-Also, I'm really grateful our path crossed.
-
-I hope this birthday brings you lots of happiness, the kind that comes from feeling loved, appreciated, and surrounded by the people who make you glow brighter.
-
-<br><br>
-
-I'm still getting to know you but I want to know you better, because you're worth the wait and effort.
-
-<br><br>
-
-I hope today reminds you how special you are.
-
-<br><br>
-
-Happy Birthday once again, here's to a beautiful year ahead... and hopefully making few memories together (yes, this includes you riding the bike and I'm following you in HILUX).
-
-<br><br>
-
-Have the most amazing day, miss me 🌸
-</p>
-</div>
-</section>
-
-<section class="section">
-<div class="card">
-<h2>Things I Admire About You</h2>
-
-<ul>
-<li>Absolute gem of a person</li>
-<li>Loves animals</li>
-<li>The way you think about life</li>
-<li>The way you keep showing up for people you care about</li>
-<li>More things to be discovered...</li>
-</ul>
-
-</div>
-</section>
-
-<section class="section">
-<div class="card">
-<h2>The Memories I Wasn't There For</h2>
-
-<p>
-
-I wish I'd met you sooner, Bohot late mile ho tum mujhe life me.
-
-<br><br>
-
-Not because I want to change anything, but because there are so many memories in your life that I'll never get to witness.
-
-<br><br>
-
-But if life allows, I'd love to be around for the memories that are still waiting to be made.
-
-<br><br>
-
-good/ bad days and all the ordinary little moments that somehow become special later.
-
-</p>
-
-</div>
-</section>
-
 <section class="section">
 
 <h2 class="timeline-title">Old Memories 📸</h2>
 
 <div class="gallery">
 
-<div class="polaroid"><div class="photo">Old Photo 1</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">Old Photo 2</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">Old Photo 3</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">Old Photo 4</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">Old Photo 5</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">Old Photo 6</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">Old Photo 7</div><p>Memory</p></div>
+<div class="polaroid">
+.jpg" class="gallery-img">
+<p>A chapter before I knew you ❤️</p>
+</div>
+
+<div class="polaroid">
+photo2.jpg
+<p>The memories I wasn't there for</p>
+</div>
+
+<div class="polaroid">
+photo3.jpg
+<p>But I'm glad they happened</p>
+</div>
+
+<div class="polaroid">
+photo4.jpg
+<p>Because they shaped you</p>
+</div>
+
+<div class="polaroid">
+.jpg" class="gallery-img">
+<p>Into the person I know today</p>
+</div>
+
+<div class="polaroid">
+photo6.jpg
+<p>And I admire that</p>
+</div>
+
+<div class="polaroid">
+photo7.jpg
+<p>More than you realize</p>
+</div>
 
 </div>
 
@@ -285,62 +45,41 @@ good/ bad days and all the ordinary little moments that somehow become special l
 
 <div class="gallery">
 
-<div class="polaroid"><div class="photo">New Photo 1</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">New Photo 2</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">New Photo 3</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">New Photo 4</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">New Photo 5</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">New Photo 6</div><p>Memory</p></div>
-<div class="polaroid"><div class="photo">New Photo 7</div><p>Memory</p></div>
+<div class="polaroid">
+8.jpg" class="gallery-img">
+<p>New adventures</p>
+</div>
+
+<div class="polaroid">
+photo9.jpg class="gallery-img">
+<p>New stories</p>
+</div>
+
+<div class="polaroid">
+photo10.jpg
+<p>New places</p>
+</div>
+
+<div class="polaroid">
+photo11.jpg class="gallery-img">
+<p>New reasons to smile</p>
+</div>
+
+<div class="polaroid">
+photo12.jpg
+<p>Moments worth remembering</p>
+</div>
+
+<div class="polaroid">
+13.jpg" class="gallery-img">
+<p>Beautiful chapters</p>
+</div>
+
+<div class="polaroid">
+photo14.jpg class="gallery-img">
+<p>And many more to come ❤️</p>
+</div>
 
 </div>
 
 </section>
-
-<section class="section">
-<div class="card">
-
-<h2>Your Playlist 🎵</h2>
-
-<div class="song">Vibe • Diljit Dosanjh</div>
-<div class="song">Aashiyan • Barfi</div>
-<div class="song">You Belong With Me • Taylor Swift</div>
-<div class="song">Moh Moh Ke Dhaage • Monali Thakur</div>
-
-</div>
-</section>
-
-<section class="section">
-<div class="card">
-
-<h2>Future Memories 🚲🚙</h2>
-
-<p>
-
-Everything will fall into place at the end, just give it some time.
-
-<br><br>
-
-You on the bike.
-
-<br>
-
-Me in the HILUX.
-
-<br><br>
-
-Deal? ❤️
-
-</p>
-
-</div>
-</section>
-
-<footer>
-Made with ❤️ for Sakshi
-<br><br>
-I adore you in every shade.
-</footer>
-
-</body>
-</html>
